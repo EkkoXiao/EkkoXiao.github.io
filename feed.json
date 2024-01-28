@@ -1,11 +1,19 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "鹿车自泰然，凤翔岂雀雁",
-    "subtitle": "==",
+    "title": "·恆 ·極 ·諭",
+    "subtitle": "鹿车自泰然，凤翔岂雀雁",
     "icon": "https://ekkoxiao.github.io/images/favicon.ico",
     "description": "",
     "home_page_url": "https://ekkoxiao.github.io",
     "items": [
+        {
+            "id": "https://ekkoxiao.github.io/2024/01/28/new/",
+            "url": "https://ekkoxiao.github.io/2024/01/28/new/",
+            "title": "New",
+            "date_published": "2024-01-28T11:52:23.956Z",
+            "content_html": "",
+            "tags": []
+        },
         {
             "id": "https://ekkoxiao.github.io/2024/01/28/hello-world/",
             "url": "https://ekkoxiao.github.io/2024/01/28/hello-world/",

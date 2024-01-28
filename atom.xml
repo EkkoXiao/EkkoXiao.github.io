@@ -1,14 +1,21 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekkoxiao.github.io</id>
-    <title>鹿车自泰然，凤翔岂雀雁</title>
-    <subtitle>==</subtitle>
+    <title>·恆 ·極 ·諭</title>
+    <subtitle>鹿车自泰然，凤翔岂雀雁</subtitle>
     <icon>https://ekkoxiao.github.io/images/favicon.ico</icon>
     <link href="https://ekkoxiao.github.io" />
     <author>
       <name>Linxin Xiao</name>
     </author>
-    <updated>2024-01-28T04:49:10.698Z</updated>
+    <updated>2024-01-28T11:52:23.956Z</updated>
+    <entry>
+        <id>https://ekkoxiao.github.io/2024/01/28/new/</id>
+        <title>New</title>
+        <link rel="alternate" href="https://ekkoxiao.github.io/2024/01/28/new/"/>
+        <content type="html"></content>
+        <updated>2024-01-28T11:52:23.956Z</updated>
+    </entry>
     <entry>
         <id>https://ekkoxiao.github.io/2024/01/28/hello-world/</id>
         <title>Hello World</title>
