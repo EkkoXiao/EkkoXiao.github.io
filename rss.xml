@@ -31,7 +31,7 @@
 &lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;span&gt;寄存器-存储器结构&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;load R1, x&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;add R1, y&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;store R1, z&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;形式二：寄存器 - 寄存器结构，访问快&lt;/p&gt;
 &lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;span&gt;寄存器-寄存器结构&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;load R1, x&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;load R2, y&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;add R3, R1, R2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;store R3, z&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;RR 结构也称为 load-store 结构，是现代指令系统结构的主流&lt;/p&gt;
 &lt;h3 id=&#34;22-寻址方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#22-寻址方式&#34;&gt;#&lt;/a&gt; 2.2 寻址方式&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;red&#34;&gt;信息存储的整数边界概念&lt;/span&gt;：信息在主存中存放的起始地址必须是该信息宽度（字节数）的整数倍&lt;br /&gt;
+&lt;p&gt;&lt;span class=&#34;purple&#34;&gt;信息存储的整数边界概念&lt;/span&gt;：信息在主存中存放的起始地址必须是该信息宽度（字节数）的整数倍&lt;br /&gt;
 存储效率 = 整个数据所需的存储量 / 整个数据所占的存储量&lt;br /&gt;
 将&lt;span class=&#34;purple&#34;&gt;寻址方式编码于操作码中&lt;/span&gt;，由操作码描述相应操作的寻址方式，适合处理机采用 load-store 结构&lt;br /&gt;
 七种基本寻址方式：&lt;/p&gt;
@@ -68,6 +68,18 @@
 &lt;li&gt;&lt;span class=&#34;red&#34;&gt;固定长度编码格式&lt;/span&gt;：寻址方式和操作类型非常少时很好，降低译码的复杂度；&lt;/li&gt;
 &lt;li&gt;&lt;span class=&#34;red&#34;&gt;混合型编码格式&lt;/span&gt;：提供若干种固定的指令字长，折中方案&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3 id=&#34;24-指令系统设计与优化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#24-指令系统设计与优化&#34;&gt;#&lt;/a&gt; 2.4 指令系统设计与优化&lt;/h3&gt;
+&lt;p&gt;沿 CISC 方向：指令数量多、功能多样&lt;br /&gt;
+面向目标程序优化：对于&lt;span class=&#34;red&#34;&gt;使用频度高的指令，用硬件加快其执行&lt;/span&gt;；对于&lt;span class=&#34;red&#34;&gt;使用频度高的指令串，用一条新的指令来替代&lt;/span&gt;。&lt;br /&gt;
+面向高级语言优化：对于高级语言增加专门的指令，例如乘加指令&lt;br /&gt;
+沿 RISC 方向：指令条数少、指令功能简单&lt;/p&gt;
+&lt;h3 id=&#34;25-操作数类型和大小&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#25-操作数类型和大小&#34;&gt;#&lt;/a&gt; 2.5 操作数类型和大小&lt;/h3&gt;
+&lt;p&gt;操作数表示方法一：&lt;span class=&#34;red&#34;&gt;操作数类型由指令中的操作码指定&lt;/span&gt;（最常见的一种方法）&lt;br /&gt;
+操作数表示方法二：数据可以附上&lt;span class=&#34;red&#34;&gt;由硬件解释的标记&lt;/span&gt;，由这些标记符指定操作数类型，从而选择适当的运算&lt;br /&gt;
+一台 32 位的机器应该支持 8、16、32 位整型操作数以及 32 位和 64 位的 IEEE754 标准浮点操作数。&lt;/p&gt;
+&lt;h3 id=&#34;26-典型指令系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#26-典型指令系统&#34;&gt;#&lt;/a&gt; 2.6 典型指令系统&lt;/h3&gt;
+&lt;p&gt;代码密度：编译具有同样功能的一段代码，指令与数据占用的空间越大，则代码密度低，也就是效率低；反之，代码密度高，执行效率高。&lt;br /&gt;
+不同的指令序列对处理器的电气特性影响也不尽相同，主要表现为&lt;span class=&#34;red&#34;&gt;处理器功耗、电压以及温度&lt;/span&gt;等影响&lt;/p&gt;
  ]]></description>
         </item>
         <item>
