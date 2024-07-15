@@ -7,14 +7,6 @@
     "home_page_url": "https://ekkoxiao.github.io",
     "items": [
         {
-            "id": "https://ekkoxiao.github.io/2024/07/01/llm/note/",
-            "url": "https://ekkoxiao.github.io/2024/07/01/llm/note/",
-            "title": "",
-            "date_published": "2024-07-01T06:58:56.714Z",
-            "content_html": "<p>goodput 有效吞吐量<br />\n throughput 吞吐量<br />\n computation-bound 计算密集型<br />\n compute-bound 计算限制<br />\n inference-engine 推理模型<br />\n intermediate states (KV cache) 中间态<br />\n orchestration layer 编排层<br />\n cost-effective 高成本效益<br />\n coupling 耦合<br />\n over-provisioning 过度配置</p>\n",
-            "tags": []
-        },
-        {
             "id": "https://ekkoxiao.github.io/2024/06/12/cs/system/Chap7/",
             "url": "https://ekkoxiao.github.io/2024/06/12/cs/system/Chap7/",
             "title": "计算机系统结构技术课程笔记-第七章",

@@ -10,25 +10,8 @@
         </author>
         <description>Tsinghua University, Peking</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 01 Jul 2024 14:58:56 +0800</pubDate>
-        <lastBuildDate>Mon, 01 Jul 2024 14:58:56 +0800</lastBuildDate>
-        <item>
-            <guid isPermalink="true">https://ekkoxiao.github.io/2024/07/01/llm/note/</guid>
-            <title></title>
-            <link>https://ekkoxiao.github.io/2024/07/01/llm/note/</link>
-            <pubDate>Mon, 01 Jul 2024 14:58:56 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;goodput 有效吞吐量&lt;br /&gt;
- throughput 吞吐量&lt;br /&gt;
- computation-bound 计算密集型&lt;br /&gt;
- compute-bound 计算限制&lt;br /&gt;
- inference-engine 推理模型&lt;br /&gt;
- intermediate states (KV cache) 中间态&lt;br /&gt;
- orchestration layer 编排层&lt;br /&gt;
- cost-effective 高成本效益&lt;br /&gt;
- coupling 耦合&lt;br /&gt;
- over-provisioning 过度配置&lt;/p&gt;
- ]]></description>
-        </item>
+        <pubDate>Wed, 12 Jun 2024 21:37:59 +0800</pubDate>
+        <lastBuildDate>Wed, 12 Jun 2024 21:37:59 +0800</lastBuildDate>
         <item>
             <guid isPermalink="true">https://ekkoxiao.github.io/2024/06/12/cs/system/Chap7/</guid>
             <title>计算机系统结构技术课程笔记-第七章</title>
