@@ -8,7 +8,24 @@
     <author>
       <name>Linxin Xiao</name>
     </author>
-    <updated>2024-06-12T13:37:59.604Z</updated>
+    <updated>2024-07-01T06:58:56.714Z</updated>
+    <entry>
+        <id>https://ekkoxiao.github.io/2024/07/01/llm/note/</id>
+        <title></title>
+        <link rel="alternate" href="https://ekkoxiao.github.io/2024/07/01/llm/note/"/>
+        <content type="html">&lt;p&gt;goodput 有效吞吐量&lt;br /&gt;
+ throughput 吞吐量&lt;br /&gt;
+ computation-bound 计算密集型&lt;br /&gt;
+ compute-bound 计算限制&lt;br /&gt;
+ inference-engine 推理模型&lt;br /&gt;
+ intermediate states (KV cache) 中间态&lt;br /&gt;
+ orchestration layer 编排层&lt;br /&gt;
+ cost-effective 高成本效益&lt;br /&gt;
+ coupling 耦合&lt;br /&gt;
+ over-provisioning 过度配置&lt;/p&gt;
+</content>
+        <updated>2024-07-01T06:58:56.714Z</updated>
+    </entry>
     <entry>
         <id>https://ekkoxiao.github.io/2024/06/12/cs/system/Chap7/</id>
         <title>计算机系统结构技术课程笔记-第七章</title>
