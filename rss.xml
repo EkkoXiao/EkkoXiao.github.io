@@ -44,7 +44,7 @@
 &lt;h3 id=&#34;self-supervised-masked-graph-autoencoder-via-structure-aware-curriculum&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#self-supervised-masked-graph-autoencoder-via-structure-aware-curriculum&#34;&gt;#&lt;/a&gt; Self-supervised Masked Graph Autoencoder via Structure-aware Curriculum&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;ICML 2025 Spotlight&lt;/span&gt; &lt;span class=&#34;label success&#34;&gt;Self-supervised Learning&lt;/span&gt; &lt;span class=&#34;label primary&#34;&gt;Curriculum Learning&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Haoyang Li, Xin Wang, Zeyang Zhang, Zongyuan Wu, &lt;strong&gt;Linxin Xiao&lt;/strong&gt;, Wenwu Zhu&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wcm9jZWVkaW5ncy5tbHIucHJlc3MvdjI2Ny9saTI1Y3QuaHRtbA==&#34;&gt;📄 Paper&lt;/span&gt;&lt;/strong&gt; · &lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9vcGVucmV2aWV3Lm5ldC9mb3J1bT9pZD02Z1g0clA2UUpX&#34;&gt;🔎 OpenReview&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wcm9jZWVkaW5ncy5tbHIucHJlc3MvdjI2Ny9saTI1Y3QuaHRtbA==&#34;&gt;📄 Paper&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;Abstract&lt;/summary&gt;&lt;div&gt;
 &lt;p&gt;该工作把课程学习引入掩码图自编码器：先估计边在结构上的恢复难度，再通过自步调调度器从易到难安排掩码与重建任务，从而学习更具信息量的节点表示，并在节点分类和链路预测任务中验证效果。&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
@@ -52,7 +52,7 @@
 &lt;h3 id=&#34;towards-multimodal-graph-large-language-model&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#towards-multimodal-graph-large-language-model&#34;&gt;#&lt;/a&gt; Towards Multimodal Graph Large Language Model&lt;/h3&gt;
 &lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;SCIS 2025&lt;/span&gt; &lt;span class=&#34;label warning&#34;&gt;Position Paper&lt;/span&gt; &lt;span class=&#34;label info&#34;&gt;Multimodal Graph&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Xin Wang, Zeyang Zhang, &lt;strong&gt;Linxin Xiao&lt;/strong&gt;, Haibo Chen, Chendi Ge, Wenwu Zhu&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tbi5jcy50c2luZ2h1YS5lZHUuY24veGlud2FuZy9QREYvcGFwZXJzLzIwMjVfVG93YXJkcyUyME11bHRpbW9kYWwlMjBHcmFwaCUyMExhcmdlJTIwTGFuZ3VhZ2UlMjBNb2RlbC5wZGY=&#34;&gt;📄 Paper&lt;/span&gt;&lt;/strong&gt; · &lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2kub3JnLzEwLjEwMDcvczExNDMyLTAyNS00NjI3LTM=&#34;&gt;🔗 DOI&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tbi5jcy50c2luZ2h1YS5lZHUuY24veGlud2FuZy9QREYvcGFwZXJzLzIwMjVfVG93YXJkcyUyME11bHRpbW9kYWwlMjBHcmFwaCUyMExhcmdlJTIwTGFuZ3VhZ2UlMjBNb2RlbC5wZGY=&#34;&gt;📄 Paper&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;Abstract&lt;/summary&gt;&lt;div&gt;
 &lt;p&gt;这篇立场论文讨论如何让大语言模型统一处理多模态图数据与任务，概括了统一结构 — 属性空间、多任务处理、图上下文学习、自然语言交互和多模态图推理五项关键能力，并梳理数据集、挑战与未来研究方向。&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
