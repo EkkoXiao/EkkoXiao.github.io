@@ -10,8 +10,58 @@
         </author>
         <description>Tsinghua University, Peking</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 27 Jan 2025 17:46:26 +0800</pubDate>
-        <lastBuildDate>Mon, 27 Jan 2025 17:46:26 +0800</lastBuildDate>
+        <pubDate>Sat, 01 Aug 2026 00:00:00 +0800</pubDate>
+        <lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://ekkoxiao.github.io/2026/08/01/publications/</guid>
+            <title>论文集</title>
+            <link>https://ekkoxiao.github.io/2026/08/01/publications/</link>
+            <pubDate>Sat, 01 Aug 2026 00:00:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;论文集&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#论文集&#34;&gt;#&lt;/a&gt; 论文集&lt;/h1&gt;
+&lt;div class=&#34;note primary no-icon&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Linxin Xiao&lt;/strong&gt;&lt;br /&gt;
+ 图机器学习・大语言模型・多模态・AI4Science&lt;/p&gt;
+&lt;p&gt;这里收录我的论文、开源代码与研究项目。 &lt;code&gt;*&lt;/code&gt;  表示共同第一作者。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;2026&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2026&#34;&gt;#&lt;/a&gt; 2026&lt;/h2&gt;
+&lt;h3 id=&#34;ood-graphllm-graph-large-language-model-for-out-of-distribution-generalized-drug-synergy-prediction&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ood-graphllm-graph-large-language-model-for-out-of-distribution-generalized-drug-synergy-prediction&#34;&gt;#&lt;/a&gt; OOD-GraphLLM: Graph Large Language Model for Out-of-Distribution Generalized Drug Synergy Prediction&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;KDD 2026&lt;/span&gt; &lt;span class=&#34;label primary&#34;&gt;Graph LLM&lt;/span&gt; &lt;span class=&#34;label success&#34;&gt;Drug Synergy Prediction&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Xin Wang, &lt;strong&gt;Linxin Xiao&lt;/strong&gt;, Yang Yao, Wenwu Zhu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDUuMzAyNDc=&#34;&gt;📄 Paper&lt;/span&gt;&lt;/strong&gt; · &lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0Vra29YaWFvL0Jpby1HcmFwaExMTQ==&#34;&gt;💻 Code&lt;/span&gt;&lt;/strong&gt; · &lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tbi5jcy50c2luZ2h1YS5lZHUuY24vYmlvLWdyYXBobGxtLw==&#34;&gt;🚀 Demo&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;Abstract&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;面向新化合物带来的分子拓扑分布偏移，OOD-GraphLLM 将分子图结构与生物医学语言语义放入统一框架联合优化。模型结合图神经架构搜索、检索增强指令微调与语言推理，在分布外场景下进行药物协同效应预测。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;2025&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2025&#34;&gt;#&lt;/a&gt; 2025&lt;/h2&gt;
+&lt;h3 id=&#34;dynas-ddi-dynamic-pairwise-architecture-search-for-generalizable-drug-drug-interaction-llm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dynas-ddi-dynamic-pairwise-architecture-search-for-generalizable-drug-drug-interaction-llm&#34;&gt;#&lt;/a&gt; DyNAS-DDI: Dynamic Pairwise Architecture Search for Generalizable Drug-Drug Interaction LLM&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;ACM MM 2025&lt;/span&gt; &lt;span class=&#34;label warning&#34;&gt;Neural Architecture Search&lt;/span&gt; &lt;span class=&#34;label info&#34;&gt;Drug-drug Interaction&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Linxin Xiao&lt;/strong&gt;, Xin Wang, Zeyang Zhang, Yang Yao, Wenwu Zhu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tbi5jcy50c2luZ2h1YS5lZHUuY24veGlud2FuZy9QREYvcGFwZXJzLzIwMjVfRHlOQVMtRERJJTIwRHluYW1pYyUyMFBhaXJ3aXNlJTIwQXJjaGl0ZWN0dXJlJTIwU2VhcmNoJTIwZm9yJTIwR2VuZXJhbGl6YWJsZSUyMERydWctRHJ1ZyUyMEludGVyYWN0aW9uJTIwTExNLnBkZg==&#34;&gt;📄 Paper&lt;/span&gt;&lt;/strong&gt; · &lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0Vra29YaWFvL0R5TkFTLURESQ==&#34;&gt;💻 Code&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;Abstract&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;针对未知药物及分布偏移下的药物相互作用预测，DyNAS-DDI 为不同药物对动态搜索适配的图神经网络架构，并融合分子结构与文本语义。实验覆盖四个带 OOD 划分的数据集，重点考察模型跨分布泛化能力。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;self-supervised-masked-graph-autoencoder-via-structure-aware-curriculum&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#self-supervised-masked-graph-autoencoder-via-structure-aware-curriculum&#34;&gt;#&lt;/a&gt; Self-supervised Masked Graph Autoencoder via Structure-aware Curriculum&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;ICML 2025 Spotlight&lt;/span&gt; &lt;span class=&#34;label success&#34;&gt;Self-supervised Learning&lt;/span&gt; &lt;span class=&#34;label primary&#34;&gt;Curriculum Learning&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Haoyang Li, Xin Wang, Zeyang Zhang, Zongyuan Wu, &lt;strong&gt;Linxin Xiao&lt;/strong&gt;, Wenwu Zhu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wcm9jZWVkaW5ncy5tbHIucHJlc3MvdjI2Ny9saTI1Y3QuaHRtbA==&#34;&gt;📄 Paper&lt;/span&gt;&lt;/strong&gt; · &lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9vcGVucmV2aWV3Lm5ldC9mb3J1bT9pZD02Z1g0clA2UUpX&#34;&gt;🔎 OpenReview&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;Abstract&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;该工作把课程学习引入掩码图自编码器：先估计边在结构上的恢复难度，再通过自步调调度器从易到难安排掩码与重建任务，从而学习更具信息量的节点表示，并在节点分类和链路预测任务中验证效果。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;towards-multimodal-graph-large-language-model&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#towards-multimodal-graph-large-language-model&#34;&gt;#&lt;/a&gt; Towards Multimodal Graph Large Language Model&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;label danger&#34;&gt;SCIS 2025&lt;/span&gt; &lt;span class=&#34;label warning&#34;&gt;Position Paper&lt;/span&gt; &lt;span class=&#34;label info&#34;&gt;Multimodal Graph&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Xin Wang, Zeyang Zhang, &lt;strong&gt;Linxin Xiao&lt;/strong&gt;, Haibo Chen, Chendi Ge, Wenwu Zhu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tbi5jcy50c2luZ2h1YS5lZHUuY24veGlud2FuZy9QREYvcGFwZXJzLzIwMjVfVG93YXJkcyUyME11bHRpbW9kYWwlMjBHcmFwaCUyMExhcmdlJTIwTGFuZ3VhZ2UlMjBNb2RlbC5wZGY=&#34;&gt;📄 Paper&lt;/span&gt;&lt;/strong&gt; · &lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2kub3JnLzEwLjEwMDcvczExNDMyLTAyNS00NjI3LTM=&#34;&gt;🔗 DOI&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;Abstract&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;这篇立场论文讨论如何让大语言模型统一处理多模态图数据与任务，概括了统一结构 — 属性空间、多任务处理、图上下文学习、自然语言交互和多模态图推理五项关键能力，并梳理数据集、挑战与未来研究方向。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;hr /&gt;
+&lt;div class=&#34;note info no-icon&#34;&gt;
+&lt;p&gt;论文列表更新于 &lt;strong&gt;2026-08&lt;/strong&gt;。完整索引可访问 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kYmxwLm9yZy9waWQvNDEwLzAzMDguaHRtbA==&#34;&gt;DBLP&lt;/span&gt;；代码与后续项目发布在 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0Vra29YaWFv&#34;&gt;GitHub&lt;/span&gt;。&lt;/p&gt;
+&lt;/div&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://ekkoxiao.github.io/2025/01/27/2025/</guid>
             <title>写在 2025 🐍年的第一天</title>
