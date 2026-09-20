@@ -10,8 +10,44 @@
         </author>
         <description>Tsinghua University, Peking</description>
         <language>zh-CN</language>
-        <pubDate>Sat, 01 Aug 2026 00:00:00 +0800</pubDate>
-        <lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0800</lastBuildDate>
+        <pubDate>Thu, 17 Sep 2026 19:53:18 +0800</pubDate>
+        <lastBuildDate>Thu, 17 Sep 2026 19:53:18 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://ekkoxiao.github.io/2026/09/17/interview/</guid>
+            <title>十年饮冰，难凉热血</title>
+            <link>https://ekkoxiao.github.io/2026/09/17/interview/</link>
+            <pubDate>Thu, 17 Sep 2026 19:53:18 +0800</pubDate>
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;持节云中，何日遣冯唐？会挽雕弓如满月，西北望，射天狼。&lt;br /&gt;
+— 苏轼&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;近日适逢求职，回望历代宦海沉浮者，但逢不如意时，或醉卧瑶台，或舞文弄墨；我既不善饮酒，又苦人工智能时代更迭变迁，渐而手无缚笔之力，思量良久而无从写起。不知为何，时常夜深忽梦少年峥嵘岁月，尝思是否能够坦荡而对昔日之我。今重拾纸砚，作此序以自勉，十年饮冰，难凉热血，当仿东坡、稼轩之不坠青云之志，末效乐天之幽愤而终。&lt;/p&gt;
+&lt;h2 id=&#34;面试经历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#面试经历&#34;&gt;#&lt;/a&gt; 面试经历&lt;/h2&gt;
+&lt;h3 id=&#34;腾讯&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#腾讯&#34;&gt;#&lt;/a&gt; 腾讯：&lt;/h3&gt;
+&lt;h4 id=&#34;821-一面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#821-一面&#34;&gt;#&lt;/a&gt; 8.21 一面&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Attention 架构公式，为什么要除以根号 d，cross-attention 和 self-attention，Attention Mask 有哪几种&lt;/li&gt;
+&lt;li&gt;场景：包含多种用户，视频等的社交与用户偏好网络，当新用户与新视频进入时如何准确为用户画像与推荐视频&lt;/li&gt;
+&lt;li&gt;代码题：数组的最大能被 3 整除的子数组和&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;827-二面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#827-二面&#34;&gt;#&lt;/a&gt; 8.27 二面&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;项目对 Out-of-distribution 的理解，真实场景中不同地域背景的分布外数据如何处理&lt;/li&gt;
+&lt;li&gt;项目对分子结构与大模型输入对齐的理解，对齐的只是分子的表征，没有自然语言含义的合理性&lt;/li&gt;
+&lt;li&gt;项目的 Loss 函数，训练目标等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;二面挂&lt;/p&gt;
+&lt;h4 id=&#34;915-一面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#915-一面&#34;&gt;#&lt;/a&gt; 9.15 一面&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;检索增强的方式&lt;/li&gt;
+&lt;li&gt;大模型后训练的方式，使用的是什么方式（SFT），对强化学习方法（RLHF，PPO）后训练大模型的理解&lt;/li&gt;
+&lt;li&gt;市面上具有代表性的多模态大模型，多模态大模型的架构&lt;/li&gt;
+&lt;li&gt;生数科技实习的经历&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一面后一天回到简历库&lt;/p&gt;
+&lt;p&gt;9.20 显示一面通过，不知何所然&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://ekkoxiao.github.io/2026/08/01/publications/</guid>
             <title>论文集</title>
@@ -58,7 +94,7 @@
 &lt;/div&gt;&lt;/details&gt;
 &lt;hr /&gt;
 &lt;div class=&#34;note info no-icon&#34;&gt;
-&lt;p&gt;论文列表更新于 &lt;strong&gt;2026-08&lt;/strong&gt;。完整索引可访问 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kYmxwLm9yZy9waWQvNDEwLzAzMDguaHRtbA==&#34;&gt;DBLP&lt;/span&gt;；代码与后续项目发布在 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0Vra29YaWFv&#34;&gt;GitHub&lt;/span&gt;。&lt;/p&gt;
+&lt;p&gt;论文列表更新于 &lt;strong&gt;2026-08&lt;/strong&gt;；代码与后续项目发布在 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0Vra29YaWFv&#34;&gt;GitHub&lt;/span&gt;。&lt;/p&gt;
 &lt;/div&gt;
  ]]></description>
         </item>
