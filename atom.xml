@@ -8,7 +8,28 @@
     <author>
       <name>Linxin Xiao</name>
     </author>
-    <updated>2026-09-17T11:53:18.532Z</updated>
+    <updated>2026-09-23T11:50:48.212Z</updated>
+    <entry>
+        <id>https://ekkoxiao.github.io/2026/09/23/preparation/post_train/post_train/</id>
+        <title></title>
+        <link rel="alternate" href="https://ekkoxiao.github.io/2026/09/23/preparation/post_train/post_train/"/>
+        <content type="html"></content>
+        <updated>2026-09-23T11:50:48.212Z</updated>
+    </entry>
+    <entry>
+        <id>https://ekkoxiao.github.io/2026/09/23/preparation/multimodal/multimodal/</id>
+        <title></title>
+        <link rel="alternate" href="https://ekkoxiao.github.io/2026/09/23/preparation/multimodal/multimodal/"/>
+        <content type="html"></content>
+        <updated>2026-09-23T11:50:40.032Z</updated>
+    </entry>
+    <entry>
+        <id>https://ekkoxiao.github.io/2026/09/23/preparation/agent/agent/</id>
+        <title></title>
+        <link rel="alternate" href="https://ekkoxiao.github.io/2026/09/23/preparation/agent/agent/"/>
+        <content type="html"></content>
+        <updated>2026-09-23T11:50:33.720Z</updated>
+    </entry>
     <entry>
         <id>https://ekkoxiao.github.io/2026/09/17/interview/</id>
         <title>十年饮冰，难凉热血</title>
@@ -46,11 +67,23 @@
 &lt;li&gt;项目中大语言模型的角色感不强，什么场景下能够体现大语言模型的能力&lt;/li&gt;
 &lt;li&gt;目前解决构建全领域（AI4Science）多模态大模型主要的瓶颈&lt;/li&gt;
 &lt;li&gt;接触过 Agent 相关的一些工作和辅助道具&lt;/li&gt;
-&lt;li&gt;是否了解 Agent 大模型的 Eval（不了解）&lt;/li&gt;
-&lt;li&gt;是否了解执行轨迹评估（不了解）&lt;/li&gt;
+&lt;li&gt;Agent 大模型的 Eval&lt;/li&gt;
+&lt;li&gt;执行轨迹评估&lt;/li&gt;
 &lt;li&gt;对 LLM，Graph，Diffusion Models，RL 的了解程度&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;不挂我吃&lt;/p&gt;
+&lt;h3 id=&#34;蚂蚁&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蚂蚁&#34;&gt;#&lt;/a&gt; 蚂蚁：&lt;/h3&gt;
+&lt;h4 id=&#34;924-一面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#924-一面&#34;&gt;#&lt;/a&gt; 9.24 一面&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;项目提问：神经架构搜索为什么能解决 OOD 问题&lt;/li&gt;
+&lt;li&gt;现有的基础大模型主要有哪些架构&lt;/li&gt;
+&lt;li&gt;图像与视频编码的模型，如 VQ 模型，VAE 等&lt;/li&gt;
+&lt;li&gt;基础大模型中的 Positional Encoding 有哪几种，例如 context length 从 4K 扩展到 16K 的时候如何处理这种 Positional Encoding&lt;/li&gt;
+&lt;li&gt;什么是 Sparse Attention，什么是 Linear Attention，和 Causual Attention 的区别和联系&lt;/li&gt;
+&lt;li&gt;手撕 Multi-head Attention&lt;/li&gt;
+&lt;li&gt;什么是 GQA，MHA 修改到 GQA 需要怎么修改&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;几乎都不会，不挂我吃&lt;/p&gt;
 </content>
         <updated>2026-09-17T11:53:18.532Z</updated>
     </entry>
