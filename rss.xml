@@ -1555,19 +1555,41 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;li&gt;执行轨迹评估&lt;/li&gt;
 &lt;li&gt;对 LLM，Graph，Diffusion Models，RL 的了解程度&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;不挂我吃&lt;/p&gt;
+&lt;p&gt;一面挂&lt;/p&gt;
+&lt;h3 id=&#34;109-一面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#109-一面&#34;&gt;#&lt;/a&gt; 10.9 一面&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;项目中 Neural Architecture Search 为什么可以称之为一个 Search&lt;/li&gt;
+&lt;li&gt;图神经网络如何得到具体的图表征&lt;/li&gt;
+&lt;li&gt;代码题：由外到内输出一个矩阵的数（顺时针）&lt;/li&gt;
+&lt;li&gt;代码题：给定一个升序数组，它在未知的点上发生了旋转，如何在 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;O&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;O(logn)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;O&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.01968em;&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;g&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 时间复杂度下找到目标值&lt;/li&gt;
+&lt;li&gt;介绍一下 GRPO 的机制和损失函数&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;蚂蚁&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#蚂蚁&#34;&gt;#&lt;/a&gt; 蚂蚁：&lt;/h3&gt;
 &lt;h4 id=&#34;924-一面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#924-一面&#34;&gt;#&lt;/a&gt; 9.24 一面&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;项目提问：神经架构搜索为什么能解决 OOD 问题&lt;/li&gt;
 &lt;li&gt;现有的基础大模型主要有哪些架构&lt;/li&gt;
-&lt;li&gt;图像与视频编码的模型，如 VQ 模型，VAE 等&lt;/li&gt;
+&lt;li&gt;图像与视频编码的模型，如 ViT，VQ，VQ-VAE 等&lt;/li&gt;
 &lt;li&gt;基础大模型中的 Positional Encoding 有哪几种，例如 context length 从 4K 扩展到 16K 的时候如何处理这种 Positional Encoding&lt;/li&gt;
 &lt;li&gt;什么是 Sparse Attention，什么是 Linear Attention，和 Causual Attention 的区别和联系&lt;/li&gt;
 &lt;li&gt;手撕 Multi-head Attention&lt;/li&gt;
 &lt;li&gt;什么是 GQA，MHA 修改到 GQA 需要怎么修改&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;几乎都不会，不挂我吃&lt;/p&gt;
+&lt;p&gt;一面挂&lt;/p&gt;
+&lt;h3 id=&#34;元理智能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#元理智能&#34;&gt;#&lt;/a&gt; 元理智能：&lt;/h3&gt;
+&lt;h4 id=&#34;108-一面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#108-一面&#34;&gt;#&lt;/a&gt; 10.8 一面&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Instruction Tuning 为什么能够激活 LLM 的垂类能力&lt;/li&gt;
+&lt;li&gt;项目的大模型实际运用过程中如何进行 RL 的扩展，有什么难点&lt;/li&gt;
+&lt;li&gt;为什么使用文本的形式输出一个数值，而不是在最后一层接入 MLP 输出&lt;/li&gt;
+&lt;li&gt;使用 CoT 进行最终分数输出的推理是否有 Ablation Study&lt;/li&gt;
+&lt;li&gt;Agent 相关的工作如何扩展到更复杂的业务场景&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;109-二面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#109-二面&#34;&gt;#&lt;/a&gt; 10.9 二面&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;如何保证其中的 Projector 能够得到充分的训练&lt;/li&gt;
+&lt;li&gt;（没什么印象了，好像就问了这一个，何意味）&lt;/li&gt;
+&lt;/ul&gt;
  ]]></description>
         </item>
         <item>
